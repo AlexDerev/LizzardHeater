@@ -1,0 +1,1301 @@
+****** BUILD Of 'LizzardHeater' (13.06.2021 1:09:32)
+
+
+****** EVENT HANDLERS
+                                                                                                                                                             0:    0x0083   Address Priority 0 Event.   Code for 'Boot' starts at 131.
+                                                                                                                                                             1:    0x00B5   Address Priority 1 Event.   Code for 'GetTempAndApplySchedule' starts at 181.
+                                                                                                                                                             2:    0x01D8   Address Priority 2 Event.   Code for 'SubscriptionDelivery' starts at 472.
+                                                                                                                                                             3:    0x02AF   Address Priority 3 Event.   Code for 'PWMCicle' starts at 687.
+                                                                                                                                                             4:    0x0000   Address Priority 4 Event.   No Event defined.
+                                                                                                                                                             5:    0x0000   Address Priority 5 Event.   No Event defined.
+                                                                                                                                                             6:    0x0000   Address Priority 6 Event.   No Event defined.
+                                                                                                                                                             7:    0x0000   Address Priority 7 Event.   No Event defined.
+                                                                                                                                                             8:    0x0000   Address Priority 8 Event.   No Event defined.
+                                                                                                                                                             9:    0x0000   Address Priority 9 Event.   No Event defined.
+                                                                                                                                                             10:   0x0000   Address Priority 10 Event.  No Event defined.
+                                                                                                                                                             11:   0x0000   Address Priority 11 Event.  No Event defined.
+                                                                                                                                                             12:   0x0000   Address Priority 12 Event.  No Event defined.
+                                                                                                                                                             13:   0x0000   Address Priority 13 Event.  No Event defined.
+                                                                                                                                                             14:   0x0000   Address Priority 14 Event.  No Event defined.
+                                                                                                                                                             15:   0x0000   Address Priority 15 Event.  No Event defined.
+                                                                                                                                                             16:   0x0000   Address Priority 16 Event.  No Event defined.
+                                                                                                                                                             17:   0x0000   Address Priority 17 Event.  No Event defined.
+                                                                                                                                                             18:   0x0000   Address Priority 18 Event.  No Event defined.
+                                                                                                                                                             19:   0x0000   Address Priority 19 Event.  No Event defined.
+                                                                                                                                                             20:   0x0000   Address Priority 20 Event.  No Event defined.
+                                                                                                                                                             21:   0x0000   Address Priority 21 Event.  No Event defined.
+                                                                                                                                                             22:   0x0000   Address Priority 22 Event.  No Event defined.
+                                                                                                                                                             23:   0x0000   Address Priority 23 Event.  No Event defined.
+                                                                                                                                                             24:   0x0000   Address Priority 24 Event.  No Event defined.
+                                                                                                                                                             25:   0x0000   Address Priority 25 Event.  No Event defined.
+                                                                                                                                                             26:   0x0000   Address Priority 26 Event.  No Event defined.
+                                                                                                                                                             27:   0x0000   Address Priority 27 Event.  No Event defined.
+                                                                                                                                                             28:   0x0000   Address Priority 28 Event.  No Event defined.
+                                                                                                                                                             29:   0x0000   Address Priority 29 Event.  No Event defined.
+                                                                                                                                                             30:   0x0000   Address Priority 30 Event.  No Event defined.
+                                                                                                                                                             31:   0x0000   Address Priority 31 Event.  No Event defined.
+
+****** RUNTIME INFORMATION
+                                                                                                                                                             32:   0x02E6   ScriptSizeLS (Size of the code in 2-byte instructions = 742)
+                                                                                                                                                             33:   0x0000   CodeSizeMS (Size of the code in 2-byte instructions = 742)
+                                                                                                                                                             34:   0x000C   CodeSizeInBlocks = 12
+                                                                                                                                                             35:   0x0003   StringSizeInBlocks = 3
+                                                                                                                                                             36:   0x0000   Reserved
+                                                                                                                                                             37:   0x0000   Reserved
+                                                                                                                                                             38:   0x174C   Compile Date and Time 2021-06-13 01:09:32
+                                                                                                                                                             39:   0x2858   Compile Date and Time 2021-06-13 01:09:32
+                                                                                                                                                             40:   0x0000   Reserved
+                                                                                                                                                             41:   0x0000   Reserved
+                                                                                                                                                             42:   0x0000   Reserved
+                                                                                                                                                             43:   0x0000   Reserved
+                                                                                                                                                             44:   0x0000   Reserved
+                                                                                                                                                             45:   0x0000   PinMode Pin0=NotUsed  Pin1=NotUsed
+                                                                                                                                                             46:   0x0000   PinMode Pin2=NotUsed  Pin3=NotUsed
+                                                                                                                                                             47:   0x0000   PinMode Pin4=NotUsed  Pin5=NotUsed
+                                                                                                                                                             48:   0x0006   PinMode Pin6=DigitalOutput  Pin7=NotUsed
+                                                                                                                                                             49:   0x0000   PinMode Pin8=NotUsed   Pin9=NotUsed
+                                                                                                                                                             50:   0x0000   PinMode Pin10=NotUsed   Pin11=NotUsed
+                                                                                                                                                             51:   0x0000   PinMode Pin12=NotUsed   Pin13=NotUsed
+                                                                                                                                                             52:   0x0000   PinMode Pin14=NotUsed   Pin15=NotUsed
+                                                                                                                                                             53:   0x0000   PinMode Pin16=NotUsed   Pin17=NotUsed
+                                                                                                                                                             54:   0x0000   PinMode Pin18=NotUsed   Pin19=NotUsed
+                                                                                                                                                             55:   0x0000   PinMode Pin20=NotUsed   Pin21=NotUsed
+                                                                                                                                                             56:   0x0000   PinMode Pin22=NotUsed   Pin23=NotUsed
+                                                                                                                                                             57:   0x0000   Reserved
+                                                                                                                                                             58:   0x0000   Reserved
+                                                                                                                                                             59:   0x0000   Reserved
+                                                                                                                                                             60:   0x0000   Reserved
+                                                                                                                                                             61:   0x1800   IdleThread EntryPoint ValTypParams=0, RefTypParams=0
+                                                                                                                                                             62:   0x0015   SystemIdle
+                                                                                                                                                             63:   0x5002   BranchBack 62
+
+****** CLASS INFORMATION
+                                                                                                                                                             64:   0x0049   Class Descriptor for class 'Global'. Next Descriptor at 73.
+                                                                                                                                                             65:   0x0000   Base Class 'Object' Value represent a pointer if >= 64 (0x40) or ClassType if < 64 (0).
+                                                                                                                                                             66:   0x0000   Offset of RefObject data.(0).
+                                                                                                                                                             67:   0x0020   Size of RefObject data.(32).
+                                                                                                                                                             68:   0x0048   Size of all data.(72).
+                                                                                                                                                             69:   0x6C47   Part of the class name 'Global'.
+                                                                                                                                                             70:   0x626F   Part of the class name 'Global'.
+                                                                                                                                                             71:   0x6C61   Part of the class name 'Global'.
+                                                                                                                                                             72:   0x0000   Part of the class name 'Global'.
+                                                                                                                                                             73:   0x0055   Class Descriptor for class 'LizzardHeater'. Next Descriptor at 85.
+                                                                                                                                                             74:   0x0000   Base Class 'Object' Value represent a pointer if >= 64 (0x40) or ClassType if < 64 (0).
+                                                                                                                                                             75:   0x0000   Offset of RefObject data.(0).
+                                                                                                                                                             76:   0x0000   Size of RefObject data.(0).
+                                                                                                                                                             77:   0x0000   Size of all data.(0).
+                                                                                                                                                             78:   0x694C   Part of the class name 'LizzardHeater'.
+                                                                                                                                                             79:   0x7A7A   Part of the class name 'LizzardHeater'.
+                                                                                                                                                             80:   0x7261   Part of the class name 'LizzardHeater'.
+                                                                                                                                                             81:   0x4864   Part of the class name 'LizzardHeater'.
+                                                                                                                                                             82:   0x6165   Part of the class name 'LizzardHeater'.
+                                                                                                                                                             83:   0x6574   Part of the class name 'LizzardHeater'.
+                                                                                                                                                             84:   0x0072   Part of the class name 'LizzardHeater'.
+                                                                                                                                                             85:   0x0060   Class Descriptor for class 'TempSensor'. Next Descriptor at 96.
+                                                                                                                                                             86:   0x0000   Base Class 'Object' Value represent a pointer if >= 64 (0x40) or ClassType if < 64 (0).
+                                                                                                                                                             87:   0x0000   Offset of RefObject data.(0).
+                                                                                                                                                             88:   0x0000   Size of RefObject data.(0).
+                                                                                                                                                             89:   0x0000   Size of all data.(0).
+                                                                                                                                                             90:   0x6554   Part of the class name 'TempSensor'.
+                                                                                                                                                             91:   0x706D   Part of the class name 'TempSensor'.
+                                                                                                                                                             92:   0x6553   Part of the class name 'TempSensor'.
+                                                                                                                                                             93:   0x736E   Part of the class name 'TempSensor'.
+                                                                                                                                                             94:   0x726F   Part of the class name 'TempSensor'.
+                                                                                                                                                             95:   0x0000   Part of the class name 'TempSensor'.
+                                                                                                                                                             96:   0x006A   Class Descriptor for class 'Scheduler'. Next Descriptor at 106.
+                                                                                                                                                             97:   0x0000   Base Class 'Object' Value represent a pointer if >= 64 (0x40) or ClassType if < 64 (0).
+                                                                                                                                                             98:   0x0000   Offset of RefObject data.(0).
+                                                                                                                                                             99:   0x0004   Size of RefObject data.(4).
+                                                                                                                                                             100:  0x0004   Size of all data.(4).
+                                                                                                                                                             101:  0x6353   Part of the class name 'Scheduler'.
+                                                                                                                                                             102:  0x6568   Part of the class name 'Scheduler'.
+                                                                                                                                                             103:  0x7564   Part of the class name 'Scheduler'.
+                                                                                                                                                             104:  0x656C   Part of the class name 'Scheduler'.
+                                                                                                                                                             105:  0x0072   Part of the class name 'Scheduler'.
+                                                                                                                                                             106:  0x0076   Class Descriptor for class 'Subsriptions'. Next Descriptor at 118.
+                                                                                                                                                             107:  0x0000   Base Class 'Object' Value represent a pointer if >= 64 (0x40) or ClassType if < 64 (0).
+                                                                                                                                                             108:  0x0000   Offset of RefObject data.(0).
+                                                                                                                                                             109:  0x0000   Size of RefObject data.(0).
+                                                                                                                                                             110:  0x0000   Size of all data.(0).
+                                                                                                                                                             111:  0x7553   Part of the class name 'Subsriptions'.
+                                                                                                                                                             112:  0x7362   Part of the class name 'Subsriptions'.
+                                                                                                                                                             113:  0x6972   Part of the class name 'Subsriptions'.
+                                                                                                                                                             114:  0x7470   Part of the class name 'Subsriptions'.
+                                                                                                                                                             115:  0x6F69   Part of the class name 'Subsriptions'.
+                                                                                                                                                             116:  0x736E   Part of the class name 'Subsriptions'.
+                                                                                                                                                             117:  0x0000   Part of the class name 'Subsriptions'.
+                                                                                                                                                             118:  0x007E   Class Descriptor for class 'Heat'. Next Descriptor at 126.
+                                                                                                                                                             119:  0x0000   Base Class 'Object' Value represent a pointer if >= 64 (0x40) or ClassType if < 64 (0).
+                                                                                                                                                             120:  0x0000   Offset of RefObject data.(0).
+                                                                                                                                                             121:  0x0000   Size of RefObject data.(0).
+                                                                                                                                                             122:  0x0000   Size of all data.(0).
+                                                                                                                                                             123:  0x6548   Part of the class name 'Heat'.
+                                                                                                                                                             124:  0x7461   Part of the class name 'Heat'.
+                                                                                                                                                             125:  0x0000   Part of the class name 'Heat'.
+                                                                                                                                                             126:  0x0000   End Of Class Data.
+
+****** APPLIACTION STATEMENTS
+*************************************************************************************************************
+
+000002  Class LizzardHeater                                                                                                                                  127:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000003      Shared schedule As Scheduler
+000004      Shared subscription As Subsriptions
+000005      Shared heater As Heat
+000006      
+000007      Shared AmbientTemp As Integer
+000008      Shared CurrentTemp As Integer
+000009      Shared TargetTemp As Integer
+000010      Shared AutoControl As Boolean
+000011      
+000012      //Init    
+                                                                                                                                                             129:  0x0001                           EventType=Boot
+                                                                                                                                                             130:  0x0700                           EventCategory=Interrupt
+000013      Shared Event Boot()                                                                                                                              131:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000014          AutoControl = True                                                                                                                           132:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             133:  0x000C   PushGlobal              
+                                                                                                                                                             134:  0xC82C   PopFieldU8              AutoControl
+
+000015          TargetTemp = 35                                                                                                                              135:  0x8023   PushConstU10            35 (0x0023)
+                                                                                                                                                             136:  0x000C   PushGlobal              
+                                                                                                                                                             137:  0xD038   PopFieldI32             TargetTemp
+
+000016          
+000017          schedule = New Scheduler()                                                                                                                   138:  0x8060   PushConstU10            96 (0x0060)
+                                                                                                                                                             139:  0x0010   ClassNew                
+                                                                                                                                                             140:  0x1CD4   BranchSubr              353
+                                                                                                                                                             141:  0x000C   PushGlobal              
+                                                                                                                                                             142:  0xD400   PopFieldRef             schedule
+
+000018          schedule.AddOnInterval(21, 24)                                                                                                               143:  0x8015   PushConstU10            21 (0x0015)
+                                                                                                                                                             144:  0x8018   PushConstU10            24 (0x0018)
+                                                                                                                                                             145:  0x000C   PushGlobal              
+                                                                                                                                                             146:  0xC400   PushFieldRef            schedule
+                                                                                                                                                             147:  0x1CD2   BranchSubr              358
+                                                                                                                                                             148:  0xE420   FreeStackSpace          ValTypeSize=1, RefTypeSize=0
+
+000019          schedule.AddOnInterval(0, 9)                                                                                                                 149:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             150:  0x8009   PushConstU10            9 (0x0009)
+                                                                                                                                                             151:  0x000C   PushGlobal              
+                                                                                                                                                             152:  0xC400   PushFieldRef            schedule
+                                                                                                                                                             153:  0x1CCC   BranchSubr              358
+                                                                                                                                                             154:  0xE420   FreeStackSpace          ValTypeSize=1, RefTypeSize=0
+
+000020          
+000021          subscription = New Subsriptions()                                                                                                            155:  0x806A   PushConstU10            106 (0x006A)
+                                                                                                                                                             156:  0x0010   ClassNew                
+                                                                                                                                                             157:  0x1D18   BranchSubr              438
+                                                                                                                                                             158:  0x000C   PushGlobal              
+                                                                                                                                                             159:  0xD404   PopFieldRef             subscription
+
+000022          subscription.Init()                                                                                                                          160:  0x000C   PushGlobal              
+                                                                                                                                                             161:  0xC404   PushFieldRef            subscription
+                                                                                                                                                             162:  0x1D15   BranchSubr              440
+
+000023          
+000024          heater = New Heat()                                                                                                                          163:  0x8076   PushConstU10            118 (0x0076)
+                                                                                                                                                             164:  0x0010   ClassNew                
+                                                                                                                                                             165:  0x1DE4   BranchSubr              650
+                                                                                                                                                             166:  0x000C   PushGlobal              
+                                                                                                                                                             167:  0xD408   PopFieldRef             heater
+
+000025          heater.Init(1)                                                                                                                               168:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             169:  0x000C   PushGlobal              
+                                                                                                                                                             170:  0xC408   PushFieldRef            heater
+                                                                                                                                                             171:  0x1DE0   BranchSubr              652
+
+000026          
+000027          CalculatePWM()                                                                                                                               172:  0x000D   PushMe                  
+                                                                                                                                                             173:  0x1C29   BranchSubr              215
+
+000028          CurrentTemp = AmbientTemp                                                                                                                    174:  0x000C   PushGlobal              
+                                                                                                                                                             175:  0xC030   PushFieldI32            AmbientTemp
+                                                                                                                                                             176:  0x000C   PushGlobal              
+                                                                                                                                                             177:  0xD034   PopFieldI32             CurrentTemp
+
+000029      End Event                                                                                                                                        178:  0x0091   Return                  
+
+000030      
+000031      //Apply schedules, get ambient temps and publish to MQTT     
+                                                                                                                                                             179:  0x0001                           TimeValue=1
+                                                                                                                                                             180:  0x0400                           EventCategory=TimeInMinutes
+000032      Shared Event GetTempAndApplySchedule() RaiseEvent Every 1 Minutes                                                                                181:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000033          CalculatePWM()                                                                                                                               182:  0x000D   PushMe                  
+                                                                                                                                                             183:  0x1C1F   BranchSubr              215
+
+000034      End Event                                                                                                                                        184:  0x0091   Return                  
+
+000035      
+000036      Shared Sub SetPWMManual(_DutyCicle As Integer)                                                                                                   185:  0x1810   EntryPoint              ValTypParams=1, RefTypParams=0
+
+000037          heater.SetPWMManual(_DutyCicle, AutoControl)                                                                                                 186:  0x8800   PushLocalI32            _DutyCicle
+                                                                                                                                                             187:  0x000C   PushGlobal              
+                                                                                                                                                             188:  0xB82C   PushFieldU8             AutoControl
+                                                                                                                                                             189:  0x000C   PushGlobal              
+                                                                                                                                                             190:  0xC408   PushFieldRef            heater
+                                                                                                                                                             191:  0x1E0B   BranchSubr              715
+
+000038          CalculatePWM()                                                                                                                               192:  0x000D   PushMe                  
+                                                                                                                                                             193:  0x1C15   BranchSubr              215
+
+000039      End Sub                                                                                                                                          194:  0x0091   Return                  
+
+000040      
+000041      Shared Sub SetAuto(_AutoControl As Integer)                                                                                                      195:  0x1810   EntryPoint              ValTypParams=1, RefTypParams=0
+
+000042          If _AutoControl = 0 Then                                                                                                                     196:  0x8800   PushLocalI32            _AutoControl
+                                                                                                                                                             197:  0x3804   BranchTrue              202
+
+000043              AutoControl = False                                                                                                                      198:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             199:  0x000C   PushGlobal              
+                                                                                                                                                             200:  0xC82C   PopFieldU8              AutoControl
+
+                                                                                                                                                             201:  0x4003   Branch                  205
+000044          Else                                                                                                                                         
+
+000045              AutoControl = True                                                                                                                       202:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             203:  0x000C   PushGlobal              
+                                                                                                                                                             204:  0xC82C   PopFieldU8              AutoControl
+
+000046          End If
+000047          CalculatePWM()                                                                                                                               205:  0x000D   PushMe                  
+                                                                                                                                                             206:  0x1C08   BranchSubr              215
+
+000048      End Sub                                                                                                                                          207:  0x0091   Return                  
+
+000049      
+000050      Shared Sub SetCurrentTemp(_currentTemp As Integer)                                                                                               208:  0x1810   EntryPoint              ValTypParams=1, RefTypParams=0
+
+000051          CurrentTemp = _currentTemp                                                                                                                   209:  0x8800   PushLocalI32            _currentTemp
+                                                                                                                                                             210:  0x000C   PushGlobal              
+                                                                                                                                                             211:  0xD034   PopFieldI32             CurrentTemp
+
+000052          CalculatePWM()                                                                                                                               212:  0x000D   PushMe                  
+                                                                                                                                                             213:  0x1C01   BranchSubr              215
+
+000053      End Sub                                                                                                                                          214:  0x0091   Return                  
+
+000054      
+000055      Private Sub CalculatePWM()                                                                                                                       215:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+                                                                                                                                                             216:  0xE0C0   AllocateStackSpace      ValTypeSize=6, RefTypeSize=0
+
+000056          Dim ambientGradient As Float = 0.2                                                                                                           217:  0x0110   PushConstI32            1045220557 (0x3E4CCCCD)
+                                                                                                                                                             218:  0xCCCD                           
+                                                                                                                                                             219:  0x3E4C                           
+                                                                                                                                                             220:  0x9000   PopLocalI32             ambientGradient
+
+000057          Dim controlledGradient As Float = 1.2                                                                                                        221:  0x0110   PushConstI32            1067030938 (0x3F99999A)
+                                                                                                                                                             222:  0x999A                           
+                                                                                                                                                             223:  0x3F99                           
+                                                                                                                                                             224:  0x9001   PopLocalI32             controlledGradient
+
+000058          Dim fAmbientTemp As Float
+000059          Dim fTargetTemp As Float
+000060          Dim fcalculatedPWM As Float
+000061          Dim calculatedPWM As Integer
+000062          
+000063          GetAmbientTemp()                                                                                                                             225:  0x000D   PushMe                  
+                                                                                                                                                             226:  0x1C30   BranchSubr              275
+
+000064          If AutoControl = True And AmbientTemp <> -127 Then                                                                                           227:  0x000C   PushGlobal              
+                                                                                                                                                             228:  0xB82C   PushFieldU8             AutoControl
+                                                                                                                                                             229:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             230:  0x0020   IntCmpEQ                
+                                                                                                                                                             231:  0x000C   PushGlobal              
+                                                                                                                                                             232:  0xC030   PushFieldI32            AmbientTemp
+                                                                                                                                                             233:  0xE87E   PushConstNeg8           -127 (0xFFFFFF81)
+                                                                                                                                                             234:  0x0021   IntCmpNE                
+                                                                                                                                                             235:  0x001F   IntAnd                  
+                                                                                                                                                             236:  0x3C21   BranchFalse             270
+
+000065              fAmbientTemp = AmbientTemp                                                                                                               237:  0x000C   PushGlobal              
+                                                                                                                                                             238:  0xC030   PushFieldI32            AmbientTemp
+                                                                                                                                                             239:  0x007E   CvtIntToFlt             
+                                                                                                                                                             240:  0x9002   PopLocalI32             fAmbientTemp
+
+000066              fTargetTemp = TargetTemp                                                                                                                 241:  0x000C   PushGlobal              
+                                                                                                                                                             242:  0xC038   PushFieldI32            TargetTemp
+                                                                                                                                                             243:  0x007E   CvtIntToFlt             
+                                                                                                                                                             244:  0x9003   PopLocalI32             fTargetTemp
+
+000067              fcalculatedPWM = (fTargetTemp - (fAmbientTemp - heater.GetPWMDCicle() * ambientGradient)) / controlledGradient                           245:  0x8803   PushLocalI32            fTargetTemp
+                                                                                                                                                             246:  0x8802   PushLocalI32            fAmbientTemp
+                                                                                                                                                             247:  0x000C   PushGlobal              
+                                                                                                                                                             248:  0xC408   PushFieldRef            heater
+                                                                                                                                                             249:  0x1D9E   BranchSubr              664
+                                                                                                                                                             250:  0x8800   PushLocalI32            ambientGradient
+                                                                                                                                                             251:  0x0078   CvtIntToFlt1            
+                                                                                                                                                             252:  0x003C   FltMul                  
+                                                                                                                                                             253:  0x003F   FltSub                  
+                                                                                                                                                             254:  0x003F   FltSub                  
+                                                                                                                                                             255:  0x8801   PushLocalI32            controlledGradient
+                                                                                                                                                             256:  0x003B   FltDiv                  
+                                                                                                                                                             257:  0x9004   PopLocalI32             fcalculatedPWM
+
+000068              calculatedPWM = fcalculatedPWM.ToInteger()                                                                                               258:  0x8804   PushLocalI32            fcalculatedPWM
+                                                                                                                                                             259:  0x007B   CvtFltToInt             
+                                                                                                                                                             260:  0x9005   PopLocalI32             calculatedPWM
+
+000069              If calculatedPWM < 0 Then                                                                                                                261:  0x8805   PushLocalI32            calculatedPWM
+                                                                                                                                                             262:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             263:  0x3401   BranchGE                265
+
+000070                  calculatedPWM = 0                                                                                                                    264:  0x6005   Const0toLocalI32        calculatedPWM
+
+000071              End If
+000072              heater.SetPWMDCicle(calculatedPWM)                                                                                                       265:  0x8805   PushLocalI32            calculatedPWM
+                                                                                                                                                             266:  0x000C   PushGlobal              
+                                                                                                                                                             267:  0xC408   PushFieldRef            heater
+                                                                                                                                                             268:  0x1D90   BranchSubr              669
+                                                                                                                                                             269:  0xE420   FreeStackSpace          ValTypeSize=1, RefTypeSize=0
+
+000073          End If
+000074          ApplySchedule()                                                                                                                              270:  0x000D   PushMe                  
+                                                                                                                                                             271:  0x1C09   BranchSubr              281
+
+000075          Publish()                                                                                                                                    272:  0x000D   PushMe                  
+                                                                                                                                                             273:  0x1C12   BranchSubr              292
+
+000076      End Sub                                                                                                                                          274:  0x0091   Return                  
+
+000077      
+000078      Private Sub GetAmbientTemp()                                                                                                                     275:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000079          AmbientTemp = TempSensor.GetIntegerTemp()                                                                                                    276:  0x000C   PushGlobal              
+                                                                                                                                                             277:  0x1C23   BranchSubr              313
+                                                                                                                                                             278:  0x000C   PushGlobal              
+                                                                                                                                                             279:  0xD030   PopFieldI32             AmbientTemp
+
+000080      End Sub                                                                                                                                          280:  0x0091   Return                  
+
+000081      
+000082      Private Sub ApplySchedule()                                                                                                                      281:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+                                                                                                                                                             282:  0xE020   AllocateStackSpace      ValTypeSize=1, RefTypeSize=0
+
+000083          Dim isDisabled As Boolean = schedule.IsDisabled()                                                                                            283:  0x000C   PushGlobal              
+                                                                                                                                                             284:  0xC400   PushFieldRef            schedule
+                                                                                                                                                             285:  0x1C6E   BranchSubr              396
+                                                                                                                                                             286:  0x9000   PopLocalI32             isDisabled
+
+000084          heater.DisablePWMDutyCicle(isDisabled)                                                                                                       287:  0x8800   PushLocalI32            isDisabled
+                                                                                                                                                             288:  0x000C   PushGlobal              
+                                                                                                                                                             289:  0xC408   PushFieldRef            heater
+                                                                                                                                                             290:  0x1DBB   BranchSubr              734
+
+000085      End Sub                                                                                                                                          291:  0x0091   Return                  
+
+000086      
+000087      Private Sub Publish()                                                                                                                            292:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+                                                                                                                                                             293:  0xE020   AllocateStackSpace      ValTypeSize=1, RefTypeSize=0
+
+000088          Dim PWMDCicle As Integer = heater.GetPWMDCicle()                                                                                             294:  0x000C   PushGlobal              
+                                                                                                                                                             295:  0xC408   PushFieldRef            heater
+                                                                                                                                                             296:  0x1D6F   BranchSubr              664
+                                                                                                                                                             297:  0x9000   PopLocalI32             PWMDCicle
+
+000089          subscription.PublishJson(PWMDCicle, AutoControl, AmbientTemp, TargetTemp, CurrentTemp)                                                       298:  0x8800   PushLocalI32            PWMDCicle
+                                                                                                                                                             299:  0x000C   PushGlobal              
+                                                                                                                                                             300:  0xB82C   PushFieldU8             AutoControl
+                                                                                                                                                             301:  0x000C   PushGlobal              
+                                                                                                                                                             302:  0xC030   PushFieldI32            AmbientTemp
+                                                                                                                                                             303:  0x000C   PushGlobal              
+                                                                                                                                                             304:  0xC038   PushFieldI32            TargetTemp
+                                                                                                                                                             305:  0x000C   PushGlobal              
+                                                                                                                                                             306:  0xC034   PushFieldI32            CurrentTemp
+                                                                                                                                                             307:  0x000C   PushGlobal              
+                                                                                                                                                             308:  0xC404   PushFieldRef            subscription
+                                                                                                                                                             309:  0x1D12   BranchSubr              584
+
+000090      End Sub                                                                                                                                          310:  0x0091   Return                  
+
+000091      
+000092      
+000093  End Class                                                                                                                                            128:  0x0097   ReturnMe                
+
+
+****** BLOCKS and VARIABLES for LizzardHeater
+    Block Class (Line 2:93)
+        LizzardHeater   Me              (ReadOnly, Offset=0)
+        Object          MyBase          (ReadOnly, Offset=0)
+        Scheduler       schedule        (SharedRefTypVariableOffset=0)
+        Subsriptions    subscription    (SharedRefTypVariableOffset=4)
+        Heat            heater          (SharedRefTypVariableOffset=8)
+        Integer         AmbientTemp     (SharedValTypVariableOffset=48)
+        Integer         CurrentTemp     (SharedValTypVariableOffset=52)
+        Integer         TargetTemp      (SharedValTypVariableOffset=56)
+        Boolean         AutoControl     (SharedValTypVariableOffset=44)
+        Block Event Boot (Line 13:29)
+        End Block
+        Block Event GetTempAndApplySchedule (Line 32:34)
+        End Block
+        Block Sub SetPWMManual (Line 36:39)
+            Integer         _DutyCicle      (LocalValTypVariableOffset=0)
+        End Block
+        Block Sub SetAuto (Line 41:48)
+            Integer         _AutoControl    (LocalValTypVariableOffset=0)
+            Block If Then  (Line 42:44)
+            End Block
+            Block Else (Line 44:46)
+            End Block
+        End Block
+        Block Sub SetCurrentTemp (Line 50:53)
+            Integer         _currentTemp    (LocalValTypVariableOffset=0)
+        End Block
+        Block Sub CalculatePWM (Line 55:76)
+            Float           ambientGradient (LocalValTypVariableOffset=0)
+            Float           controlledGradie(LocalValTypVariableOffset=1)
+            Float           fAmbientTemp    (LocalValTypVariableOffset=2)
+            Float           fTargetTemp     (LocalValTypVariableOffset=3)
+            Float           fcalculatedPWM  (LocalValTypVariableOffset=4)
+            Integer         calculatedPWM   (LocalValTypVariableOffset=5)
+            Block If Then  (Line 64:73)
+                Block If Then  (Line 69:71)
+                End Block
+            End Block
+        End Block
+        Block Sub GetAmbientTemp (Line 78:80)
+        End Block
+        Block Sub ApplySchedule (Line 82:85)
+            Boolean         isDisabled      (LocalValTypVariableOffset=0)
+        End Block
+        Block Sub Publish (Line 87:90)
+            Integer         PWMDCicle       (LocalValTypVariableOffset=0)
+        End Block
+        Total Size of Member data including base classes = 0.
+    End Block
+
+
+*************************************************************************************************************
+
+000001  Class TempSensor                                                                                                                                     311:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000002      Shared Function GetIntegerTemp() As Integer                                                                                                      313:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+                                                                                                                                                             314:  0xE022   AllocateStackSpace      ValTypeSize=1, RefTypeSize=2
+
+000003          // Define the properties of the I2C peripheral and device address
+000004          Dim sensor As I2c
+000005          sensor = I2c.Create(250000, Pin.SCL, Pin.SDA, 0x48)                                                                                          315:  0x0110   PushConstI32            250000 (0x0003D090)
+                                                                                                                                                             316:  0xD090                           
+                                                                                                                                                             317:  0x0003                           
+                                                                                                                                                             318:  0x800D   PushConstU10            13 (0x000D)
+                                                                                                                                                             319:  0x800E   PushConstU10            14 (0x000E)
+                                                                                                                                                             320:  0x8048   PushConstU10            72 (0x0048)
+                                                                                                                                                             321:  0x803B   PushConstU10            59 (0x003B)
+                                                                                                                                                             322:  0x0010   ClassNew                
+                                                                                                                                                             323:  0x9400   PopLocalRef             sensor
+
+000006          
+000007          // Power up the sensor and give it some time to settle
+000008          Device.EnableTempSensor()                                                                                                                    324:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             325:  0x00F0   DeviceEnableTemp        
+
+000009          Thread.Sleep(40000) // See page 13 of the datasheet                                                                                          326:  0x0110   PushConstI32            40000 (0x00009C40)
+                                                                                                                                                             327:  0x9C40                           
+                                                                                                                                                             328:  0x0000                           
+                                                                                                                                                             329:  0x00D5   ThreadSleep             
+                                                                                                                                                             330:  0xE420   FreeStackSpace          ValTypeSize=1, RefTypeSize=0
+
+000010          
+000011          // Read the sensor (only 2 bytes to read
+000012          Dim res As ListOfByte = sensor.Read(2)                                                                                                       331:  0x8002   PushConstU10            2 (0x0002)
+                                                                                                                                                             332:  0x8C00   PushLocalRef            sensor
+                                                                                                                                                             333:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             334:  0x00E0   I2cDeviceRead           
+                                                                                                                                                             335:  0x9401   PopLocalRef             res
+
+000013          
+000014          // See Tmp102 documentation how to interpret the data (page 8)
+000015          Dim temp As Integer = -127                                                                                                                   336:  0xE87E   PushConstNeg8           -127 (0xFFFFFF81)
+                                                                                                                                                             337:  0x9000   PopLocalI32             temp
+
+000016          If res <> Nothing Then                                                                                                                       338:  0x8C01   PushLocalRef            res
+                                                                                                                                                             339:  0x000E   PushNothing             
+                                                                                                                                                             340:  0x000B   RefCmpNE                
+                                                                                                                                                             341:  0x3C06   BranchFalse             348
+
+000017              temp = res(0).SignExtend()                                                                                                               342:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             343:  0x8C01   PushLocalRef            res
+                                                                                                                                                             344:  0x00B4   ListItemGet             
+                                                                                                                                                             345:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             346:  0x0005   SignExtend              
+                                                                                                                                                             347:  0x9000   PopLocalI32             temp
+
+000018          End If
+000019          
+000020          // power off
+000021          Device.DisableTempSensor()                                                                                                                   348:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             349:  0x00F0   DeviceEnableTemp        
+
+000022          Return temp                                                                                                                                  350:  0x8800   PushLocalI32            temp
+                                                                                                                                                             351:  0x0092   ReturnValType           
+
+000023      End Function                                                                                                                                     352:  0x0093   Return0                 
+
+000024      
+000025  End Class                                                                                                                                            312:  0x0097   ReturnMe                
+
+
+****** BLOCKS and VARIABLES for TempSensor
+    Block Class (Line 1:25)
+        TempSensor      Me              (ReadOnly, Offset=0)
+        Object          MyBase          (ReadOnly, Offset=0)
+        Block Function GetIntegerTemp (Line 2:23)
+            I2c             sensor          (LocalRefTypVariableOffset=0)
+            ListOfByte      res             (LocalRefTypVariableOffset=1)
+            Integer         temp            (LocalValTypVariableOffset=0)
+            Block If Then  (Line 16:18)
+            End Block
+        End Block
+        Total Size of Member data including base classes = 0.
+    End Block
+
+
+*************************************************************************************************************
+
+000001  Class Scheduler                                                                                                                                      353:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000002      Private schedules As ListOfObject = New ListOfObject()                                                                                           354:  0x800A   PushConstU10            10 (0x000A)
+                                                                                                                                                             355:  0x0010   ClassNew                
+                                                                                                                                                             356:  0xB400   PopMemberRef            schedules
+
+000003      Public Function AddOnInterval(_hourFrom As Integer, _hourTo As Integer) As Boolean                                                               358:  0x1820   EntryPoint              ValTypParams=2, RefTypParams=0
+                                                                                                                                                             359:  0xE001   AllocateStackSpace      ValTypeSize=0, RefTypeSize=1
+
+000004          Dim interval As ListOfInteger = New ListOfInteger()                                                                                          360:  0x800E   PushConstU10            14 (0x000E)
+                                                                                                                                                             361:  0x0010   ClassNew                
+                                                                                                                                                             362:  0x9400   PopLocalRef             interval
+
+000005          If _hourFrom < 0 Or _hourTo <= 0 Or _hourFrom >= 24 Or _hourTo > 24 Or _hourFrom >= _hourTo Then                                             363:  0x8800   PushLocalI32            _hourFrom
+                                                                                                                                                             364:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             365:  0x0024   IntCmpLT                
+                                                                                                                                                             366:  0x8801   PushLocalI32            _hourTo
+                                                                                                                                                             367:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             368:  0x0025   IntCmpLE                
+                                                                                                                                                             369:  0x002D   IntOr                   
+                                                                                                                                                             370:  0x8800   PushLocalI32            _hourFrom
+                                                                                                                                                             371:  0x8018   PushConstU10            24 (0x0018)
+                                                                                                                                                             372:  0x0023   IntCmpGE                
+                                                                                                                                                             373:  0x002D   IntOr                   
+                                                                                                                                                             374:  0x8801   PushLocalI32            _hourTo
+                                                                                                                                                             375:  0x8018   PushConstU10            24 (0x0018)
+                                                                                                                                                             376:  0x0022   IntCmpGT                
+                                                                                                                                                             377:  0x002D   IntOr                   
+                                                                                                                                                             378:  0x8800   PushLocalI32            _hourFrom
+                                                                                                                                                             379:  0x8801   PushLocalI32            _hourTo
+                                                                                                                                                             380:  0x0023   IntCmpGE                
+                                                                                                                                                             381:  0x002D   IntOr                   
+                                                                                                                                                             382:  0x3C02   BranchFalse             385
+
+000006              Return False                                                                                                                             383:  0x0093   Return0                 
+
+                                                                                                                                                             384:  0x4009   Branch                  394
+000007          Else                                                                                                                                         
+
+000008              interval.Add(_hourFrom)                                                                                                                  385:  0x8800   PushLocalI32            _hourFrom
+                                                                                                                                                             386:  0x8C00   PushLocalRef            interval
+                                                                                                                                                             387:  0x00A3   ListAdd                 
+
+000009              interval.Add(_hourTo)                                                                                                                    388:  0x8801   PushLocalI32            _hourTo
+                                                                                                                                                             389:  0x8C00   PushLocalRef            interval
+                                                                                                                                                             390:  0x00A3   ListAdd                 
+
+000010              schedules.Add(interval)                                                                                                                  391:  0x8C00   PushLocalRef            interval
+                                                                                                                                                             392:  0xA400   PushMemberRef           schedules
+                                                                                                                                                             393:  0x00A3   ListAdd                 
+
+000011          End If
+000012          Return True                                                                                                                                  394:  0x0094   Return1                 
+
+000013      End Function                                                                                                                                     395:  0x0093   Return0                 
+
+000014      
+000015      Public Function IsDisabled() As Boolean                                                                                                          396:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+                                                                                                                                                             397:  0xE060   AllocateStackSpace      ValTypeSize=3, RefTypeSize=0
+
+000016          Dim curDate As DateTime = DateTime.Now                                                                                                       398:  0x0073   DatGetNow               
+                                                                                                                                                             399:  0x9000   PopLocalI32             curDate
+
+000017          Dim hour As Integer = curDate.Hour()                                                                                                         400:  0x8800   PushLocalI32            curDate
+                                                                                                                                                             401:  0x006F   DatGetHour              
+                                                                                                                                                             402:  0x9001   PopLocalI32             hour
+
+000018          Dim ret As Boolean = True                                                                                                                    403:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             404:  0x9002   PopLocalI32             ret
+
+000019          
+                                                                                                                                                             405:  0xA400   PushMemberRef           schedules
+                                                                                                                                                             406:  0x000F   ClassClone              
+                                                                                                                                                             407:  0x000E   PushNothing             
+                                                                                                                                                             408:  0x0003   ExchangeRef             
+                                                                                                                                                             409:  0x0018   DupRef1                 
+                                                                                                                                                             410:  0xC000   PushFieldI32            Offset=0
+                                                                                                                                                             411:  0x0016   PushConstMinus1         
+000020          For Each element In schedules.Clone()                                                                                                        412:  0x4C15   BranchForEach           434
+                                                                                                                                                             413:  0xE001   AllocateStackSpace      ValTypeSize=0, RefTypeSize=1
+
+000021              Dim interval As ListOfInteger = element.Cast(ListOfInteger)                                                                              414:  0x800E   PushConstU10            14 (0x000E)
+                                                                                                                                                             415:  0x8C00   PushLocalRef            element
+                                                                                                                                                             416:  0x0007   Cast                    
+                                                                                                                                                             417:  0x9402   PopLocalRef             interval
+
+000022              If hour >= interval(0) And hour < interval(1) Then                                                                                       418:  0x8801   PushLocalI32            hour
+                                                                                                                                                             419:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             420:  0x8C02   PushLocalRef            interval
+                                                                                                                                                             421:  0x00B4   ListItemGet             
+                                                                                                                                                             422:  0x0023   IntCmpGE                
+                                                                                                                                                             423:  0x8801   PushLocalI32            hour
+                                                                                                                                                             424:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             425:  0x8C02   PushLocalRef            interval
+                                                                                                                                                             426:  0x00B4   ListItemGet             
+                                                                                                                                                             427:  0x0024   IntCmpLT                
+                                                                                                                                                             428:  0x001F   IntAnd                  
+                                                                                                                                                             429:  0x3C02   BranchFalse             432
+
+000023                  ret = False                                                                                                                          430:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             431:  0x9002   PopLocalI32             ret
+
+000024              End If
+                                                                                                                                                             432:  0xE401   FreeStackSpace          ValTypeSize=0, RefTypeSize=1
+                                                                                                                                                             433:  0x5016   BranchBack              412
+000025          Next                                                                                                                                         434:  0xE442   FreeStackSpace          ValTypeSize=2, RefTypeSize=2
+
+000026          Return ret                                                                                                                                   435:  0x8802   PushLocalI32            ret
+                                                                                                                                                             436:  0x0092   ReturnValType           
+
+000027      End Function                                                                                                                                     437:  0x0093   Return0                 
+
+000028      
+000029      
+000030  End Class                                                                                                                                            357:  0x0097   ReturnMe                
+
+
+****** BLOCKS and VARIABLES for Scheduler
+    Block Class (Line 1:30)
+        Scheduler       Me              (ReadOnly, Offset=0)
+        Object          MyBase          (ReadOnly, Offset=0)
+        ListOfObject    schedules       (MemberRefTypVariableOffset=0)
+        Block Function AddOnInterval (Line 3:13)
+            ListOfInteger   interval        (LocalRefTypVariableOffset=0)
+            Integer         _hourFrom       (LocalValTypVariableOffset=0)
+            Integer         _hourTo         (LocalValTypVariableOffset=1)
+            Block If Then  (Line 5:7)
+            End Block
+            Block Else (Line 7:11)
+            End Block
+        End Block
+        Block Function IsDisabled (Line 15:27)
+            DateTime        curDate         (LocalValTypVariableOffset=0)
+            Integer         hour            (LocalValTypVariableOffset=1)
+            Boolean         ret             (LocalValTypVariableOffset=2)
+            Block For Each  (Line 20:25)
+                ListOfInteger   interval        (LocalRefTypVariableOffset=2)
+                Object          element         (LocalRefTypVariableOffset=0)
+                Block If Then  (Line 22:24)
+                End Block
+            End Block
+        End Block
+        Total Size of Member data including base classes = 4.
+    End Block
+
+
+*************************************************************************************************************
+
+000001  Class Subsriptions                                                                                                                                   438:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000002      //Subscription topics    
+000003      Const TopicRoot As String = "mcThings/beacon/00010F54"
+000004      Const DeviceId As String = "/0001107E" 
+000005      Const ControlTopic As String = "/HeatControl"
+000006      Const SetAutoTopic As String = "/Auto"
+000007      Const HeaterCheckTopic As String = "/Heater"
+000008      
+000009      Shared TopicRootPath As String
+000010      Shared SubscribeTopicPath As String
+000011      Shared HeatControlTopicPath As String
+000012      Shared HeaterPubTopicPath As String
+000013      Shared SetAutoTopicPath As String 
+000014      
+000015      Public Sub Init()                                                                                                                                440:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000016          SubscribeTopicPath = TopicRoot + "/#"                                                                                                        441:  0x8420   PushLiteral             32
+                                                                                                                                                             442:  0x000C   PushGlobal              
+                                                                                                                                                             443:  0xD410   PopFieldRef             SubscribeTopicPath
+
+000017          TopicRootPath = TopicRoot + DeviceId                                                                                                         444:  0x8428   PushLiteral             40
+                                                                                                                                                             445:  0x000C   PushGlobal              
+                                                                                                                                                             446:  0xD40C   PopFieldRef             TopicRootPath
+
+000018          HeatControlTopicPath = TopicRootPath + ControlTopic                                                                                          447:  0x000C   PushGlobal              
+                                                                                                                                                             448:  0xC40C   PushFieldRef            TopicRootPath
+                                                                                                                                                             449:  0x8415   PushLiteral             21
+                                                                                                                                                             450:  0x0056   StrAdd                  
+                                                                                                                                                             451:  0x000C   PushGlobal              
+                                                                                                                                                             452:  0xD414   PopFieldRef             HeatControlTopicPath
+
+000019          HeaterPubTopicPath = TopicRootPath + HeaterCheckTopic                                                                                        453:  0x000C   PushGlobal              
+                                                                                                                                                             454:  0xC40C   PushFieldRef            TopicRootPath
+                                                                                                                                                             455:  0x841D   PushLiteral             29
+                                                                                                                                                             456:  0x0056   StrAdd                  
+                                                                                                                                                             457:  0x000C   PushGlobal              
+                                                                                                                                                             458:  0xD418   PopFieldRef             HeaterPubTopicPath
+
+000020          SetAutoTopicPath = TopicRootPath + SetAutoTopic                                                                                              459:  0x000C   PushGlobal              
+                                                                                                                                                             460:  0xC40C   PushFieldRef            TopicRootPath
+                                                                                                                                                             461:  0x841A   PushLiteral             26
+                                                                                                                                                             462:  0x0056   StrAdd                  
+                                                                                                                                                             463:  0x000C   PushGlobal              
+                                                                                                                                                             464:  0xD41C   PopFieldRef             SetAutoTopicPath
+
+000021          Lplan.Subscribe(SubscribeTopicPath, QoS.AtLeastOnce)                                                                                         465:  0x000C   PushGlobal              
+                                                                                                                                                             466:  0xC410   PushFieldRef            SubscribeTopicPath
+                                                                                                                                                             467:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             468:  0x0102   LplanSubscribe          
+
+000022      End Sub                                                                                                                                          469:  0x0091   Return                  
+
+000023      
+000024      //Get values from subscriptions    
+                                                                                                                                                             470:  0x0003                           EventType=SubscriptionDelivery
+                                                                                                                                                             471:  0x0700                           EventCategory=Interrupt
+000025      Shared Event SubscriptionDelivery()                                                                                                              472:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+                                                                                                                                                             473:  0xE003   AllocateStackSpace      ValTypeSize=0, RefTypeSize=3
+
+000026          Dim msg As Message = Lplan.GetDelivery()                                                                                                     474:  0x00FE   LplanGetDelivery        
+                                                                                                                                                             475:  0x9400   PopLocalRef             msg
+
+000027          Dim payload As ListOfByte = msg.PayLoad                                                                                                      476:  0x8C00   PushLocalRef            msg
+                                                                                                                                                             477:  0xC404   PushFieldRef            Offset=4
+                                                                                                                                                             478:  0x9401   PopLocalRef             payload
+
+000028          Dim topic As String = msg.Topic                                                                                                              479:  0x8C00   PushLocalRef            msg
+                                                                                                                                                             480:  0xC400   PushFieldRef            Offset=0
+                                                                                                                                                             481:  0x9402   PopLocalRef             topic
+
+000029          If topic = HeatControlTopicPath Then                                                                                                         482:  0x8C02   PushLocalRef            topic
+                                                                                                                                                             483:  0x000C   PushGlobal              
+                                                                                                                                                             484:  0xC414   PushFieldRef            HeatControlTopicPath
+                                                                                                                                                             485:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             486:  0x0058   StrCmpEQ                
+                                                                                                                                                             487:  0x3C0A   BranchFalse             498
+                                                                                                                                                             488:  0xE020   AllocateStackSpace      ValTypeSize=1, RefTypeSize=0
+
+000030              Dim res As Integer = Str2Int(payload)                                                                                                    489:  0x8C01   PushLocalRef            payload
+                                                                                                                                                             490:  0x000D   PushMe                  
+                                                                                                                                                             491:  0x1C26   BranchSubr              530
+                                                                                                                                                             492:  0x9000   PopLocalI32             res
+
+000031              LizzardHeater.SetPWMManual(res)                                                                                                          493:  0x8800   PushLocalI32            res
+                                                                                                                                                             494:  0x000C   PushGlobal              
+                                                                                                                                                             495:  0x5537   BranchSubrBack          185
+
+                                                                                                                                                             496:  0xE420   FreeStackSpace          ValTypeSize=1, RefTypeSize=0
+                                                                                                                                                             497:  0x401F   Branch                  529
+000032          ElseIf topic = TopicRootPath Then                                                                                                            498:  0x8C02   PushLocalRef            topic
+                                                                                                                                                             499:  0x000C   PushGlobal              
+                                                                                                                                                             500:  0xC40C   PushFieldRef            TopicRootPath
+                                                                                                                                                             501:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             502:  0x0058   StrCmpEQ                
+                                                                                                                                                             503:  0x3C0A   BranchFalse             514
+                                                                                                                                                             504:  0xE020   AllocateStackSpace      ValTypeSize=1, RefTypeSize=0
+
+000033              Dim iTemp As Integer = payload(4)                                                                                                        505:  0x8004   PushConstU10            4 (0x0004)
+                                                                                                                                                             506:  0x8C01   PushLocalRef            payload
+                                                                                                                                                             507:  0x00B4   ListItemGet             
+                                                                                                                                                             508:  0x9000   PopLocalI32             iTemp
+
+000034              LizzardHeater.SetCurrentTemp(iTemp)                                                                                                      509:  0x8800   PushLocalI32            iTemp
+                                                                                                                                                             510:  0x000C   PushGlobal              
+                                                                                                                                                             511:  0x5530   BranchSubrBack          208
+
+                                                                                                                                                             512:  0xE420   FreeStackSpace          ValTypeSize=1, RefTypeSize=0
+                                                                                                                                                             513:  0x400F   Branch                  529
+000035          ElseIf topic = SetAutoTopicPath Then                                                                                                         514:  0x8C02   PushLocalRef            topic
+                                                                                                                                                             515:  0x000C   PushGlobal              
+                                                                                                                                                             516:  0xC41C   PushFieldRef            SetAutoTopicPath
+                                                                                                                                                             517:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             518:  0x0058   StrCmpEQ                
+                                                                                                                                                             519:  0x3C09   BranchFalse             529
+                                                                                                                                                             520:  0xE020   AllocateStackSpace      ValTypeSize=1, RefTypeSize=0
+
+000036              Dim iAuto As Integer = Str2Int(payload)                                                                                                  521:  0x8C01   PushLocalRef            payload
+                                                                                                                                                             522:  0x000D   PushMe                  
+                                                                                                                                                             523:  0x1C06   BranchSubr              530
+                                                                                                                                                             524:  0x9000   PopLocalI32             iAuto
+
+000037              LizzardHeater.SetAuto(iAuto)                                                                                                             525:  0x8800   PushLocalI32            iAuto
+                                                                                                                                                             526:  0x000C   PushGlobal              
+                                                                                                                                                             527:  0x554D   BranchSubrBack          195
+
+                                                                                                                                                             528:  0xE420   FreeStackSpace          ValTypeSize=1, RefTypeSize=0
+000038          End If                                                                                                                                       
+
+000039      End Event                                                                                                                                        529:  0x0091   Return                  
+
+000040      
+000041      
+000042      Public Function Str2Int(_payload As ListOfByte) As Integer                                                                                       530:  0x1801   EntryPoint              ValTypParams=0, RefTypParams=1
+                                                                                                                                                             531:  0xE080   AllocateStackSpace      ValTypeSize=4, RefTypeSize=0
+
+000043          Dim res As Integer = 0
+000044          Dim negative As Boolean = False
+000045          Dim skipSign As Boolean = False
+000046          Dim pos As Integer = 0
+000047          
+                                                                                                                                                             532:  0x8C00   PushLocalRef            _payload
+                                                                                                                                                             533:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             534:  0x0018   DupRef1                 
+                                                                                                                                                             535:  0xC000   PushFieldI32            Offset=0
+                                                                                                                                                             536:  0x0016   PushConstMinus1         
+000048          For Each char In _payload                                                                                                                    537:  0x4C24   BranchForEach           574
+                                                                                                                                                             538:  0xE020   AllocateStackSpace      ValTypeSize=1, RefTypeSize=0
+
+000049              Dim intChar As Integer = char.ToInteger()                                                                                                539:  0x8804   PushLocalI32            char
+                                                                                                                                                             540:  0x9007   PopLocalI32             intChar
+
+000050              If intChar = 45 And skipSign = False Then                                                                                                541:  0x8807   PushLocalI32            intChar
+                                                                                                                                                             542:  0x802D   PushConstU10            45 (0x002D)
+                                                                                                                                                             543:  0x0020   IntCmpEQ                
+                                                                                                                                                             544:  0x8802   PushLocalI32            skipSign
+                                                                                                                                                             545:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             546:  0x0020   IntCmpEQ                
+                                                                                                                                                             547:  0x001F   IntAnd                  
+                                                                                                                                                             548:  0x3C05   BranchFalse             554
+
+000051                  skipSign = True                                                                                                                      549:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             550:  0x9002   PopLocalI32             skipSign
+
+000052                  negative = True                                                                                                                      551:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             552:  0x9001   PopLocalI32             negative
+
+                                                                                                                                                             553:  0x4012   Branch                  572
+000053              ElseIf intChar >= 48 And intChar <= 57 Then                                                                                              554:  0x8807   PushLocalI32            intChar
+                                                                                                                                                             555:  0x8030   PushConstU10            48 (0x0030)
+                                                                                                                                                             556:  0x0023   IntCmpGE                
+                                                                                                                                                             557:  0x8807   PushLocalI32            intChar
+                                                                                                                                                             558:  0x8039   PushConstU10            57 (0x0039)
+                                                                                                                                                             559:  0x0025   IntCmpLE                
+                                                                                                                                                             560:  0x001F   IntAnd                  
+                                                                                                                                                             561:  0x3C0A   BranchFalse             572
+
+000054                  skipSign = True                                                                                                                      562:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             563:  0x9002   PopLocalI32             skipSign
+
+000055                  res = res * 10 + char - 48                                                                                                           564:  0x8800   PushLocalI32            res
+                                                                                                                                                             565:  0x800A   PushConstU10            10 (0x000A)
+                                                                                                                                                             566:  0x002A   IntMul                  
+                                                                                                                                                             567:  0x8804   PushLocalI32            char
+                                                                                                                                                             568:  0x001E   IntAdd                  
+                                                                                                                                                             569:  0x8030   PushConstU10            48 (0x0030)
+                                                                                                                                                             570:  0x0031   IntSub                  
+                                                                                                                                                             571:  0x9000   PopLocalI32             res
+
+000056              End If
+                                                                                                                                                             572:  0xE420   FreeStackSpace          ValTypeSize=1, RefTypeSize=0
+                                                                                                                                                             573:  0x5025   BranchBack              537
+000057          Next                                                                                                                                         574:  0xE461   FreeStackSpace          ValTypeSize=3, RefTypeSize=1
+
+000058          If negative = True Then                                                                                                                      575:  0x8801   PushLocalI32            negative
+                                                                                                                                                             576:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             577:  0x2403   BranchNE                581
+
+000059              res = -res                                                                                                                               578:  0x8800   PushLocalI32            res
+                                                                                                                                                             579:  0x002B   IntNeg                  
+                                                                                                                                                             580:  0x9000   PopLocalI32             res
+
+000060          End If
+000061          Return res                                                                                                                                   581:  0x8800   PushLocalI32            res
+                                                                                                                                                             582:  0x0092   ReturnValType           
+
+000062      End Function                                                                                                                                     583:  0x0093   Return0                 
+
+000063      
+000064      Public Sub PublishJson(_PWMCicle As Integer, _AutoControl As Boolean, _AmbientTemp As Integer, _TargetTemp As Integer, _CurrentTemp As Integer)  584:  0x1850   EntryPoint              ValTypParams=5, RefTypParams=0
+                                                                                                                                                             585:  0xE023   AllocateStackSpace      ValTypeSize=1, RefTypeSize=3
+
+000065          
+000066          Dim jControl As Json = New Json                                                                                                              586:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             587:  0x8014   PushConstU10            20 (0x0014)
+                                                                                                                                                             588:  0x0010   ClassNew                
+                                                                                                                                                             589:  0x9400   PopLocalRef             jControl
+
+000067          jControl.Add("PWMCicle", _PWMCicle)                                                                                                          590:  0x8432   PushLiteral             50
+                                                                                                                                                             591:  0x8800   PushLocalI32            _PWMCicle
+                                                                                                                                                             592:  0x8C00   PushLocalRef            jControl
+                                                                                                                                                             593:  0x8004   PushConstU10            4 (0x0004)
+                                                                                                                                                             594:  0x00C2   JsonAdd                 
+
+000068          jControl.Add("Auto", _AutoControl)                                                                                                           595:  0x8436   PushLiteral             54
+                                                                                                                                                             596:  0x8801   PushLocalI32            _AutoControl
+                                                                                                                                                             597:  0x8C00   PushLocalRef            jControl
+                                                                                                                                                             598:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             599:  0x00C2   JsonAdd                 
+
+000069          
+000070          Dim jTemperature As Json = New Json                                                                                                          600:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             601:  0x8014   PushConstU10            20 (0x0014)
+                                                                                                                                                             602:  0x0010   ClassNew                
+                                                                                                                                                             603:  0x9401   PopLocalRef             jTemperature
+
+000071          jTemperature.Add("Ambient", _AmbientTemp)                                                                                                    604:  0x8439   PushLiteral             57
+                                                                                                                                                             605:  0x8802   PushLocalI32            _AmbientTemp
+                                                                                                                                                             606:  0x8C01   PushLocalRef            jTemperature
+                                                                                                                                                             607:  0x8004   PushConstU10            4 (0x0004)
+                                                                                                                                                             608:  0x00C2   JsonAdd                 
+
+000072          jTemperature.Add("Target", _TargetTemp)                                                                                                      609:  0x843C   PushLiteral             60
+                                                                                                                                                             610:  0x8803   PushLocalI32            _TargetTemp
+                                                                                                                                                             611:  0x8C01   PushLocalRef            jTemperature
+                                                                                                                                                             612:  0x8004   PushConstU10            4 (0x0004)
+                                                                                                                                                             613:  0x00C2   JsonAdd                 
+
+000073          jTemperature.Add("Current", _CurrentTemp)                                                                                                    614:  0x843F   PushLiteral             63
+                                                                                                                                                             615:  0x8804   PushLocalI32            _CurrentTemp
+                                                                                                                                                             616:  0x8C01   PushLocalRef            jTemperature
+                                                                                                                                                             617:  0x8004   PushConstU10            4 (0x0004)
+                                                                                                                                                             618:  0x00C2   JsonAdd                 
+
+000074          
+000075          Dim jCheck As Json = New Json                                                                                                                619:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             620:  0x8014   PushConstU10            20 (0x0014)
+                                                                                                                                                             621:  0x0010   ClassNew                
+                                                                                                                                                             622:  0x9402   PopLocalRef             jCheck
+
+000076          Dim curDate As DateTime = DateTime.Now                                                                                                       623:  0x0073   DatGetNow               
+                                                                                                                                                             624:  0x9005   PopLocalI32             curDate
+
+000077          jCheck.Add("DateTime", curDate)                                                                                                              625:  0x8442   PushLiteral             66
+                                                                                                                                                             626:  0x8805   PushLocalI32            curDate
+                                                                                                                                                             627:  0x8C02   PushLocalRef            jCheck
+                                                                                                                                                             628:  0x8008   PushConstU10            8 (0x0008)
+                                                                                                                                                             629:  0x00C2   JsonAdd                 
+
+000078          jCheck.Add("Controls", jControl)                                                                                                             630:  0x8446   PushLiteral             70
+                                                                                                                                                             631:  0x8C00   PushLocalRef            jControl
+                                                                                                                                                             632:  0x8C02   PushLocalRef            jCheck
+                                                                                                                                                             633:  0x8014   PushConstU10            20 (0x0014)
+                                                                                                                                                             634:  0x00C2   JsonAdd                 
+
+000079          jCheck.Add("Temperatures", jTemperature)                                                                                                     635:  0x844A   PushLiteral             74
+                                                                                                                                                             636:  0x8C01   PushLocalRef            jTemperature
+                                                                                                                                                             637:  0x8C02   PushLocalRef            jCheck
+                                                                                                                                                             638:  0x8014   PushConstU10            20 (0x0014)
+                                                                                                                                                             639:  0x00C2   JsonAdd                 
+
+000080          Lplan.Publish(HeaterPubTopicPath, jCheck.ToListOfByte)                                                                                       640:  0x000C   PushGlobal              
+                                                                                                                                                             641:  0xC418   PushFieldRef            HeaterPubTopicPath
+                                                                                                                                                             642:  0x8C02   PushLocalRef            jCheck
+                                                                                                                                                             643:  0x0081   CvtObjToStr             
+                                                                                                                                                             644:  0x0016   PushConstMinus1         
+                                                                                                                                                             645:  0x0065   StrToListOfByte         
+                                                                                                                                                             646:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             647:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             648:  0x0101   LplanPublish            
+
+000081          
+000082      End Sub                                                                                                                                          649:  0x0091   Return                  
+
+000083      
+000084      
+000085  End Class                                                                                                                                            439:  0x0097   ReturnMe                
+
+
+****** BLOCKS and VARIABLES for Subsriptions
+    Block Class (Line 1:85)
+        Subsriptions    Me              (ReadOnly, Offset=0)
+        Object          MyBase          (ReadOnly, Offset=0)
+        String          TopicRoot       (Literal="mcThings/beacon/00010F54")
+        String          DeviceId        (Literal="/0001107E")
+        String          ControlTopic    (Literal="/HeatControl")
+        String          SetAutoTopic    (Literal="/Auto")
+        String          HeaterCheckTopic(Literal="/Heater")
+        String          TopicRootPath   (SharedRefTypVariableOffset=12)
+        String          SubscribeTopicPa(SharedRefTypVariableOffset=16)
+        String          HeatControlTopic(SharedRefTypVariableOffset=20)
+        String          HeaterPubTopicPa(SharedRefTypVariableOffset=24)
+        String          SetAutoTopicPath(SharedRefTypVariableOffset=28)
+        Block Sub Init (Line 15:22)
+        End Block
+        Block Event SubscriptionDelivery (Line 25:39)
+            Message         msg             (LocalRefTypVariableOffset=0)
+            ListOfByte      payload         (LocalRefTypVariableOffset=1)
+            String          topic           (LocalRefTypVariableOffset=2)
+            Block If Then  (Line 29:32)
+                Integer         res             (LocalValTypVariableOffset=0)
+            End Block
+            Block ElseIf (Line 32:35)
+                Integer         iTemp           (LocalValTypVariableOffset=0)
+            End Block
+            Block ElseIf (Line 35:38)
+                Integer         iAuto           (LocalValTypVariableOffset=0)
+            End Block
+        End Block
+        Block Function Str2Int (Line 42:62)
+            Integer         res             (LocalValTypVariableOffset=0)
+            Boolean         negative        (LocalValTypVariableOffset=1)
+            Boolean         skipSign        (LocalValTypVariableOffset=2)
+            Integer         pos             (LocalValTypVariableOffset=3)
+            ListOfByte      _payload        (LocalRefTypVariableOffset=0)
+            Block For Each  (Line 48:57)
+                Integer         intChar         (LocalValTypVariableOffset=7)
+                Byte            char            (LocalValTypVariableOffset=4)
+                Block If Then  (Line 50:53)
+                End Block
+                Block ElseIf (Line 53:56)
+                End Block
+            End Block
+            Block If Then  (Line 58:60)
+            End Block
+        End Block
+        Block Sub PublishJson (Line 64:82)
+            Json            jControl        (LocalRefTypVariableOffset=0)
+            Json            jTemperature    (LocalRefTypVariableOffset=1)
+            Json            jCheck          (LocalRefTypVariableOffset=2)
+            DateTime        curDate         (LocalValTypVariableOffset=5)
+            Integer         _PWMCicle       (LocalValTypVariableOffset=0)
+            Boolean         _AutoControl    (LocalValTypVariableOffset=1)
+            Integer         _AmbientTemp    (LocalValTypVariableOffset=2)
+            Integer         _TargetTemp     (LocalValTypVariableOffset=3)
+            Integer         _CurrentTemp    (LocalValTypVariableOffset=4)
+        End Block
+        Total Size of Member data including base classes = 0.
+    End Block
+
+
+*************************************************************************************************************
+
+000001  Class Heat                                                                                                                                           650:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000002      //PWM Setup    
+000003      Const PWMScale As Integer = 20 // Total PWM Width 
+000004      Shared PWMDutyCicle As Integer // Current PWM Duty Cicle size 
+000005      Shared PWMCounter As Integer //Internal PWM counter
+000006      Shared PWMSet As Integer //PWM Duty Cicle set up from MQTT
+000007      
+000008      Public Sub Init(_PWMSet As Integer)                                                                                                              652:  0x1810   EntryPoint              ValTypParams=1, RefTypParams=0
+
+000009          PWMSet = _PWMSet                                                                                                                             653:  0x8800   PushLocalI32            _PWMSet
+                                                                                                                                                             654:  0x000C   PushGlobal              
+                                                                                                                                                             655:  0xD044   PopFieldI32             PWMSet
+
+000010          PWMCounter = PWMScale                                                                                                                        656:  0x8014   PushConstU10            20 (0x0014)
+                                                                                                                                                             657:  0x000C   PushGlobal              
+                                                                                                                                                             658:  0xD040   PopFieldI32             PWMCounter
+
+000011          PWMDutyCicle = PWMSet                                                                                                                        659:  0x000C   PushGlobal              
+                                                                                                                                                             660:  0xC044   PushFieldI32            PWMSet
+                                                                                                                                                             661:  0x000C   PushGlobal              
+                                                                                                                                                             662:  0xD03C   PopFieldI32             PWMDutyCicle
+
+000012      End Sub                                                                                                                                          663:  0x0091   Return                  
+
+000013      
+000014      Public Function GetPWMDCicle() As Integer                                                                                                        664:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000015          Return PWMDutyCicle                                                                                                                          665:  0x000C   PushGlobal              
+                                                                                                                                                             666:  0xC03C   PushFieldI32            PWMDutyCicle
+                                                                                                                                                             667:  0x0092   ReturnValType           
+
+000016      End Function                                                                                                                                     668:  0x0093   Return0                 
+
+000017      
+000018      Public Function SetPWMDCicle(_PWMDutyCicle As Integer) As Integer                                                                                669:  0x1810   EntryPoint              ValTypParams=1, RefTypParams=0
+
+000019          If _PWMDutyCicle >= 0 And _PWMDutyCicle <= PWMScale Then                                                                                     670:  0x8800   PushLocalI32            _PWMDutyCicle
+                                                                                                                                                             671:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             672:  0x0023   IntCmpGE                
+                                                                                                                                                             673:  0x8800   PushLocalI32            _PWMDutyCicle
+                                                                                                                                                             674:  0x8014   PushConstU10            20 (0x0014)
+                                                                                                                                                             675:  0x0025   IntCmpLE                
+                                                                                                                                                             676:  0x001F   IntAnd                  
+                                                                                                                                                             677:  0x3C03   BranchFalse             681
+
+000020              PWMDutyCicle = _PWMDutyCicle                                                                                                             678:  0x8800   PushLocalI32            _PWMDutyCicle
+                                                                                                                                                             679:  0x000C   PushGlobal              
+                                                                                                                                                             680:  0xD03C   PopFieldI32             PWMDutyCicle
+
+000021          End If
+000022          Return PWMDutyCicle                                                                                                                          681:  0x000C   PushGlobal              
+                                                                                                                                                             682:  0xC03C   PushFieldI32            PWMDutyCicle
+                                                                                                                                                             683:  0x0092   ReturnValType           
+
+000023      End Function                                                                                                                                     684:  0x0093   Return0                 
+
+000024      
+000025      //PWM emulation cicle    
+                                                                                                                                                             685:  0x0064                           TimeValue=100
+                                                                                                                                                             686:  0x0200                           EventCategory=TimeInMilliSeconds
+000026      Shared Event PWMCicle() RaiseEvent Every 100 milliSeconds                                                                                        687:  0x1800   EntryPoint              ValTypParams=0, RefTypParams=0
+
+000027          If PWMCounter = 0 Then                                                                                                                       688:  0x000C   PushGlobal              
+                                                                                                                                                             689:  0xC040   PushFieldI32            PWMCounter
+                                                                                                                                                             690:  0x3803   BranchTrue              694
+
+000028              PWMCounter = PWMScale                                                                                                                    691:  0x8014   PushConstU10            20 (0x0014)
+                                                                                                                                                             692:  0x000C   PushGlobal              
+                                                                                                                                                             693:  0xD040   PopFieldI32             PWMCounter
+
+000029          End If
+000030          If PWMCounter > PWMDutyCicle Then                                                                                                            694:  0x000C   PushGlobal              
+                                                                                                                                                             695:  0xC040   PushFieldI32            PWMCounter
+                                                                                                                                                             696:  0x000C   PushGlobal              
+                                                                                                                                                             697:  0xC03C   PushFieldI32            PWMDutyCicle
+                                                                                                                                                             698:  0x2C05   BranchLE                704
+
+000031              LedRed = False                                                                                                                           699:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             700:  0x0809   PopAndSetDigitalPin     Pin9
+
+000032              Relay = False                                                                                                                            701:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             702:  0x0806   PopAndSetDigitalPin     Pin6
+
+                                                                                                                                                             703:  0x4004   Branch                  708
+000033          Else                                                                                                                                         
+
+000034              LedRed = True                                                                                                                            704:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             705:  0x0809   PopAndSetDigitalPin     Pin9
+
+000035              Relay = True                                                                                                                             706:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             707:  0x0806   PopAndSetDigitalPin     Pin6
+
+000036          End If
+000037          PWMCounter = PWMCounter - 1                                                                                                                  708:  0x000C   PushGlobal              
+                                                                                                                                                             709:  0xC040   PushFieldI32            PWMCounter
+                                                                                                                                                             710:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             711:  0x0031   IntSub                  
+                                                                                                                                                             712:  0x000C   PushGlobal              
+                                                                                                                                                             713:  0xD040   PopFieldI32             PWMCounter
+
+000038      End Event                                                                                                                                        714:  0x0091   Return                  
+
+000039      
+000040      Public Sub SetPWMManual(_DutyCicle As Integer, _auto As Boolean)                                                                                 715:  0x1820   EntryPoint              ValTypParams=2, RefTypParams=0
+
+000041          If _DutyCicle >= 0 And _DutyCicle <= PWMScale Then                                                                                           716:  0x8800   PushLocalI32            _DutyCicle
+                                                                                                                                                             717:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             718:  0x0023   IntCmpGE                
+                                                                                                                                                             719:  0x8800   PushLocalI32            _DutyCicle
+                                                                                                                                                             720:  0x8014   PushConstU10            20 (0x0014)
+                                                                                                                                                             721:  0x0025   IntCmpLE                
+                                                                                                                                                             722:  0x001F   IntAnd                  
+                                                                                                                                                             723:  0x3C09   BranchFalse             733
+
+000042              PWMSet = _DutyCicle                                                                                                                      724:  0x8800   PushLocalI32            _DutyCicle
+                                                                                                                                                             725:  0x000C   PushGlobal              
+                                                                                                                                                             726:  0xD044   PopFieldI32             PWMSet
+
+000043              If _auto = False Then                                                                                                                    727:  0x8801   PushLocalI32            _auto
+                                                                                                                                                             728:  0x3804   BranchTrue              733
+
+000044                  PWMDutyCicle = PWMSet                                                                                                                729:  0x000C   PushGlobal              
+                                                                                                                                                             730:  0xC044   PushFieldI32            PWMSet
+                                                                                                                                                             731:  0x000C   PushGlobal              
+                                                                                                                                                             732:  0xD03C   PopFieldI32             PWMDutyCicle
+
+000045              End If
+000046          End If 
+000047      End Sub                                                                                                                                          733:  0x0091   Return                  
+
+000048      
+000049      Public Sub DisablePWMDutyCicle(_disabled As Boolean)                                                                                             734:  0x1810   EntryPoint              ValTypParams=1, RefTypParams=0
+
+000050          If _disabled = True Then                                                                                                                     735:  0x8800   PushLocalI32            _disabled
+                                                                                                                                                             736:  0x8001   PushConstU10            1 (0x0001)
+                                                                                                                                                             737:  0x2403   BranchNE                741
+
+000051              PWMDutyCicle = 0                                                                                                                         738:  0x8000   PushConstU10            0 (0x0000)
+                                                                                                                                                             739:  0x000C   PushGlobal              
+                                                                                                                                                             740:  0xD03C   PopFieldI32             PWMDutyCicle
+
+000052          End If
+000053          
+000054      End Sub                                                                                                                                          741:  0x0091   Return                  
+
+000055  End Class                                                                                                                                            651:  0x0097   ReturnMe                
+
+
+****** BLOCKS and VARIABLES for Heat
+    Block Class (Line 1:55)
+        Heat            Me              (ReadOnly, Offset=0)
+        Object          MyBase          (ReadOnly, Offset=0)
+        Integer         PWMScale        (Literal=20)
+        Integer         PWMDutyCicle    (SharedValTypVariableOffset=60)
+        Integer         PWMCounter      (SharedValTypVariableOffset=64)
+        Integer         PWMSet          (SharedValTypVariableOffset=68)
+        Block Sub Init (Line 8:12)
+            Integer         _PWMSet         (LocalValTypVariableOffset=0)
+        End Block
+        Block Function GetPWMDCicle (Line 14:16)
+        End Block
+        Block Function SetPWMDCicle (Line 18:23)
+            Integer         _PWMDutyCicle   (LocalValTypVariableOffset=0)
+            Block If Then  (Line 19:21)
+            End Block
+        End Block
+        Block Event PWMCicle (Line 26:38)
+            Block If Then  (Line 27:29)
+            End Block
+            Block If Then  (Line 30:33)
+            End Block
+            Block Else (Line 33:36)
+            End Block
+        End Block
+        Block Sub SetPWMManual (Line 40:47)
+            Integer         _DutyCicle      (LocalValTypVariableOffset=0)
+            Boolean         _auto           (LocalValTypVariableOffset=1)
+            Block If Then  (Line 41:46)
+                Block If Then  (Line 43:45)
+                End Block
+            End Block
+        End Block
+        Block Sub DisablePWMDutyCicle (Line 49:54)
+            Boolean         _disabled       (LocalValTypVariableOffset=0)
+            Block If Then  (Line 50:52)
+            End Block
+        End Block
+        Total Size of Member data including base classes = 0.
+    End Block
+
+
+
+
+****** GLOBAL_VARIABLES **********************************************
+schedule, Class=Scheduler, Offset=0, SourceClass=LizzardHeater
+subscription, Class=Subsriptions, Offset=4, SourceClass=LizzardHeater
+heater, Class=Heat, Offset=8, SourceClass=LizzardHeater
+TopicRootPath, Class=String, Offset=12, SourceClass=Subsriptions
+SubscribeTopicPath, Class=String, Offset=16, SourceClass=Subsriptions
+HeatControlTopicPath, Class=String, Offset=20, SourceClass=Subsriptions
+HeaterPubTopicPath, Class=String, Offset=24, SourceClass=Subsriptions
+SetAutoTopicPath, Class=String, Offset=28, SourceClass=Subsriptions
+Number, Class=Integer, Offset=32, IsReadoly, SourceClass=Intrinsic
+Data, Class=Integer, Offset=36, IsReadoly, SourceClass=Intrinsic
+ProgramCounter, Class=Integer, Offset=40, IsReadoly, SourceClass=Intrinsic
+AmbientTemp, Class=Integer, Offset=48, SourceClass=LizzardHeater
+CurrentTemp, Class=Integer, Offset=52, SourceClass=LizzardHeater
+TargetTemp, Class=Integer, Offset=56, SourceClass=LizzardHeater
+AutoControl, Class=Boolean, Offset=44, SourceClass=LizzardHeater
+PWMDutyCicle, Class=Integer, Offset=60, SourceClass=Heat
+PWMCounter, Class=Integer, Offset=64, SourceClass=Heat
+PWMSet, Class=Integer, Offset=68, SourceClass=Heat
+
+
+****** LITERALS ***********************************************
+     1 String "True"
+     4 String "False"
+     7 String "\r\n"
+     9 String "mcThings/beacon/00010F54"
+    17 String "/0001107E"
+    21 String "/HeatControl"
+    26 String "/Auto"
+    29 String "/Heater"
+    32 String "mcThings/beacon/00010F54/#"
+    40 String "mcThings/beacon/00010F54/0001107E"
+    50 String "PWMCicle"
+    54 String "Auto"
+    57 String "Ambient"
+    60 String "Target"
+    63 String "Current"
+    66 String "DateTime"
+    70 String "Controls"
+    74 String "Temperatures"

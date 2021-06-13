@@ -1,0 +1,30 @@
+﻿Class Scheduler
+    Private schedules As ListOfObject = New ListOfObject()
+    Public Function AddOnInterval(_hourFrom As Integer, _hourTo As Integer) As Boolean
+        Dim interval As ListOfInteger = New ListOfInteger()
+        If _hourFrom < 0 Or _hourTo <= 0 Or _hourFrom >= 24 Or _hourTo > 24 Or _hourFrom >= _hourTo Then
+            Return False
+        Else
+            interval.Add(_hourFrom)
+            interval.Add(_hourTo)
+            schedules.Add(interval)
+        End If
+        Return True
+    End Function 
+    
+    Public Function IsDisabled() As Boolean
+        Dim curDate As DateTime = DateTime.Now
+        Dim hour As Integer = curDate.Hour()
+        Dim ret As Boolean = True
+        
+        For Each element In schedules.Clone()
+            Dim interval As ListOfInteger = element.Cast(ListOfInteger)
+            If hour >= interval(0) And hour < interval(1) Then
+                ret = False
+            End If
+        Next
+        Return ret
+    End Function
+    
+    
+End Class

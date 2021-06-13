@@ -1,0 +1,55 @@
+﻿Class Heat
+    //PWM Setup    
+    Const PWMScale As Integer = 20 // Total PWM Width 
+    Shared PWMDutyCicle As Integer // Current PWM Duty Cicle size 
+    Shared PWMCounter As Integer //Internal PWM counter
+    Shared PWMSet As Integer //PWM Duty Cicle set up from MQTT
+    
+    Public Sub Init(_PWMSet As Integer)
+        PWMSet = _PWMSet
+        PWMCounter = PWMScale
+        PWMDutyCicle = PWMSet
+    End Sub
+    
+    Public Function GetPWMDCicle() As Integer
+        Return PWMDutyCicle
+    End Function
+    
+    Public Function SetPWMDCicle(_PWMDutyCicle As Integer) As Integer
+        If _PWMDutyCicle >= 0 And _PWMDutyCicle <= PWMScale Then
+            PWMDutyCicle = _PWMDutyCicle
+        End If
+        Return PWMDutyCicle
+    End Function
+    
+    //PWM emulation cicle    
+    Shared Event PWMCicle() RaiseEvent Every 100 milliSeconds
+        If PWMCounter = 0 Then 
+            PWMCounter = PWMScale
+        End If
+        If PWMCounter > PWMDutyCicle Then
+            LedRed = False
+            Relay = False
+        Else
+            LedRed = True
+            Relay = True
+        End If
+        PWMCounter = PWMCounter - 1
+    End Event
+    
+    Public Sub SetPWMManual(_DutyCicle As Integer, _auto As Boolean)
+        If _DutyCicle >= 0 And _DutyCicle <= PWMScale Then
+            PWMSet = _DutyCicle
+            If _auto = False Then
+                PWMDutyCicle = PWMSet 
+            End If
+        End If 
+    End Sub
+    
+    Public Sub DisablePWMDutyCicle(_disabled As Boolean)
+        If _disabled = True Then
+            PWMDutyCicle = 0
+        End If
+        
+    End Sub
+End Class

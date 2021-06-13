@@ -1,0 +1,85 @@
+﻿Class Subsriptions
+    //Subscription topics    
+    Const TopicRoot As String = "mcThings/beacon/00010F54"
+    Const DeviceId As String = "/0001107E" 
+    Const ControlTopic As String = "/HeatControl"
+    Const SetAutoTopic As String = "/Auto"
+    Const HeaterCheckTopic As String = "/Heater"
+    
+    Shared TopicRootPath As String
+    Shared SubscribeTopicPath As String
+    Shared HeatControlTopicPath As String
+    Shared HeaterPubTopicPath As String
+    Shared SetAutoTopicPath As String 
+    
+    Public Sub Init()
+        SubscribeTopicPath = TopicRoot + "/#"
+        TopicRootPath = TopicRoot + DeviceId 
+        HeatControlTopicPath = TopicRootPath + ControlTopic
+        HeaterPubTopicPath = TopicRootPath + HeaterCheckTopic
+        SetAutoTopicPath = TopicRootPath + SetAutoTopic
+        Lplan.Subscribe(SubscribeTopicPath, QoS.AtLeastOnce)
+    End Sub
+    
+    //Get values from subscriptions    
+    Shared Event SubscriptionDelivery()
+        Dim msg As Message = Lplan.GetDelivery()
+        Dim payload As ListOfByte = msg.PayLoad
+        Dim topic As String = msg.Topic
+        If topic = HeatControlTopicPath Then
+            Dim res As Integer = Str2Int(payload)
+            LizzardHeater.SetPWMManual(res)
+        ElseIf topic = TopicRootPath Then
+            Dim iTemp As Integer = payload(4)
+            LizzardHeater.SetCurrentTemp(iTemp)
+        ElseIf topic = SetAutoTopicPath Then
+            Dim iAuto As Integer = Str2Int(payload)
+            LizzardHeater.SetAuto(iAuto)
+        End If
+    End Event
+    
+    
+    Public Function Str2Int(_payload As ListOfByte) As Integer 
+        Dim res As Integer = 0
+        Dim negative As Boolean = False
+        Dim skipSign As Boolean = False
+        Dim pos As Integer = 0
+        
+        For Each char In _payload
+            Dim intChar As Integer = char.ToInteger()
+            If intChar = 45 And skipSign = False Then
+                skipSign = True
+                negative = True
+            ElseIf intChar >= 48 And intChar <= 57 Then
+                skipSign = True
+                res = res * 10 + char - 48
+            End If
+        Next
+        If negative = True Then
+            res = -res
+        End If
+        Return res
+    End Function
+    
+    Public Sub PublishJson(_PWMCicle As Integer, _AutoControl As Boolean, _AmbientTemp As Integer, _TargetTemp As Integer, _CurrentTemp As Integer)
+        
+        Dim jControl As Json = New Json
+        jControl.Add("PWMCicle", _PWMCicle)
+        jControl.Add("Auto", _AutoControl)
+        
+        Dim jTemperature As Json = New Json
+        jTemperature.Add("Ambient", _AmbientTemp)
+        jTemperature.Add("Target", _TargetTemp)
+        jTemperature.Add("Current", _CurrentTemp)
+        
+        Dim jCheck As Json = New Json
+        Dim curDate As DateTime = DateTime.Now
+        jCheck.Add("DateTime", curDate)
+        jCheck.Add("Controls", jControl)
+        jCheck.Add("Temperatures", jTemperature)
+        Lplan.Publish(HeaterPubTopicPath, jCheck.ToListOfByte)
+        
+    End Sub
+    
+    
+End Class

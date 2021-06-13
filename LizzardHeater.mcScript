@@ -1,0 +1,93 @@
+﻿Define PinMode Pin6 As DigitalOutput Alias Relay
+Class LizzardHeater
+    Shared schedule As Scheduler
+    Shared subscription As Subsriptions
+    Shared heater As Heat
+    
+    Shared AmbientTemp As Integer
+    Shared CurrentTemp As Integer
+    Shared TargetTemp As Integer
+    Shared AutoControl As Boolean
+    
+    //Init    
+    Shared Event Boot()
+        AutoControl = True
+        TargetTemp = 35
+        
+        schedule = New Scheduler()
+        schedule.AddOnInterval(21, 24)
+        schedule.AddOnInterval(0, 9)
+        
+        subscription = New Subsriptions()
+        subscription.Init()
+        
+        heater = New Heat()
+        heater.Init(1)
+        
+        CalculatePWM()
+        CurrentTemp = AmbientTemp
+    End Event
+    
+    //Apply schedules, get ambient temps and publish to MQTT     
+    Shared Event GetTempAndApplySchedule() RaiseEvent Every 1 Minutes
+        CalculatePWM()
+    End Event
+    
+    Shared Sub SetPWMManual(_DutyCicle As Integer)
+        heater.SetPWMManual(_DutyCicle, AutoControl)
+        CalculatePWM()
+    End Sub
+    
+    Shared Sub SetAuto(_AutoControl As Integer)
+        If _AutoControl = 0 Then
+            AutoControl = False
+        Else
+            AutoControl = True
+        End If
+        CalculatePWM()
+    End Sub
+    
+    Shared Sub SetCurrentTemp(_currentTemp As Integer)
+        CurrentTemp = _currentTemp
+        CalculatePWM()
+    End Sub
+    
+    Private Sub CalculatePWM()
+        Dim ambientGradient As Float = 0.2
+        Dim controlledGradient As Float = 1.2
+        Dim fAmbientTemp As Float
+        Dim fTargetTemp As Float
+        Dim fcalculatedPWM As Float
+        Dim calculatedPWM As Integer
+        
+        GetAmbientTemp()
+        If AutoControl = True And AmbientTemp <> -127 Then
+            fAmbientTemp = AmbientTemp
+            fTargetTemp = TargetTemp
+            fcalculatedPWM = (fTargetTemp - (fAmbientTemp - heater.GetPWMDCicle() * ambientGradient)) / controlledGradient
+            calculatedPWM = fcalculatedPWM.ToInteger()
+            If calculatedPWM < 0 Then
+                calculatedPWM = 0
+            End If
+            heater.SetPWMDCicle(calculatedPWM)
+        End If
+        ApplySchedule()
+        Publish()
+    End Sub
+    
+    Private Sub GetAmbientTemp()
+        AmbientTemp = TempSensor.GetIntegerTemp()
+    End Sub
+    
+    Private Sub ApplySchedule()
+        Dim isDisabled As Boolean = schedule.IsDisabled()
+        heater.DisablePWMDutyCicle(isDisabled)
+    End Sub
+    
+    Private Sub Publish()
+        Dim PWMDCicle As Integer = heater.GetPWMDCicle()
+        subscription.PublishJson(PWMDCicle, AutoControl, AmbientTemp, TargetTemp, CurrentTemp)
+    End Sub
+    
+    
+End Class 
