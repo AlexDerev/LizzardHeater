@@ -2,20 +2,13 @@
 <ProjectSetting xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectName>LizzardHeater</ProjectName>
   <DeviceType>mcMod110</DeviceType>
-  <LastDocumentName>Subscriptions.mcScript</LastDocumentName>
+  <LastDocumentName>IntegerTempr.mcScript</LastDocumentName>
   <DocumentSettings>
     <DocumentSetting>
       <Name>LizzardHeater</Name>
       <FileSpec>LizzardHeater.mcScript</FileSpec>
-      <Row>0</Row>
-      <Col>0</Col>
-      <BreakPointLineNumbers />
-    </DocumentSetting>
-    <DocumentSetting>
-      <Name>TempSensor</Name>
-      <FileSpec>..\..\libraries\temperature\tmp102\TempSensor.mcScript</FileSpec>
-      <Row>0</Row>
-      <Col>0</Col>
+      <Row>57</Row>
+      <Col>30</Col>
       <BreakPointLineNumbers />
     </DocumentSetting>
     <DocumentSetting>
@@ -37,6 +30,20 @@
     <DocumentSetting>
       <Name>Heater</Name>
       <FileSpec>Heater.mcScript</FileSpec>
+      <Row>0</Row>
+      <Col>0</Col>
+      <BreakPointLineNumbers />
+    </DocumentSetting>
+    <DocumentSetting>
+      <Name>IntegerTempr</Name>
+      <FileSpec>IntegerTempr.mcScript</FileSpec>
+      <Row>25</Row>
+      <Col>0</Col>
+      <BreakPointLineNumbers />
+    </DocumentSetting>
+    <DocumentSetting>
+      <Name>[Listing]</Name>
+      <FileSpec>LizzardHeater.lst</FileSpec>
       <Row>0</Row>
       <Col>0</Col>
       <BreakPointLineNumbers />
