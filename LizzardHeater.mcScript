@@ -15,8 +15,8 @@ Class LizzardHeater
         TargetTemp = 35
         
         schedule = New Scheduler()
-        schedule.AddOnInterval(21, 24)
-        schedule.AddOnInterval(0, 9)
+        schedule.AddOnInterval(19, 24)
+        schedule.AddOnInterval(0, 8)
         
         subscription = New Subsriptions()
         subscription.Init()
